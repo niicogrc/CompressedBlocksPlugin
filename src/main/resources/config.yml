@@ -1,0 +1,16 @@
+# Materiales que se pueden comprimir. Deben ser nombres validos del enum Material de Bukkit.
+# Ejemplos: STONE, COBBLESTONE, IRON_INGOT, GOLD_INGOT, DIAMOND, EMERALD, NETHERITE_INGOT
+compressible-materials:
+  - STONE
+  - COBBLESTONE
+  - IRON_INGOT
+  - GOLD_INGOT
+  - DIAMOND
+  - EMERALD
+  - NETHERITE_INGOT
+
+# Cuantos niveles de compresion generar por encima del material base.
+# Nivel 1: 9 material base -> 1 comprimido
+# Nivel 2: 9 comprimidos nivel 1 -> 1 doble comprimido
+# etc.
+max-tier: 4
